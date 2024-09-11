@@ -1,0 +1,48 @@
+.About-page {
+    /* align-items: left; */
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 50px auto; /* Center the content and provide some spacing from the top */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background to contrast with the text */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.About-page h1 {
+    color: #333;
+    text-align: center; /* Center the heading */
+}
+
+.About-page h2 {
+    color: #0056b3; /* Blue color for subheadings for better visibility */
+    margin-top: 20px; /* Space above subheadings */
+}
+
+.About-page p {
+    color: #666; /* Dark gray color for paragraph text */
+    line-height: 1.6; /* Increase line height for better readability */
+    text-align: justify; /* Justify text for a clean, aligned appearance */
+    margin-bottom: 20px; /* Space below paragraphs */
+}
+
+.About-page b {
+    color: #000; /* Bold text for emphasis */
+    font-weight: bold;
+}
+
+.About-page ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+.About-page li {
+    margin-bottom: 10px; /* Space below each list item */
+}
+
+.About-page .key-feature {
+    margin-left: 20px; /* Indent key features for hierarchy */
+}
+
+.About-page .benefit {
+    color: #007BFF; /* Blue color for benefits to highlight them */
+}

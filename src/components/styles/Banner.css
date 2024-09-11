@@ -1,0 +1,17 @@
+.banner {
+    width: 100vw;
+    height: 300px; /* Set the height of the banner */
+    background-image: url('../../images/bg-img.jpg'); /* Link to your background image */
+    background-size: cover; /* Cover the entire area of the banner */
+    background-position: center; /* Center the background image */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgb(0, 0, 0); /* Set text color */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6); /* Optional: Adds a shadow to the text for better readability */
+}
+
+.item {
+    padding: 10px; /* Padding inside each item for spacing */
+    margin-left: 10px; /* Space between items */
+}

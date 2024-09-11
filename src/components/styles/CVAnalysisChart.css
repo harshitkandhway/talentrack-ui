@@ -1,0 +1,43 @@
+/* CVAnalysisChart.css */
+.chart-container {
+    padding: 20px;
+    margin: auto;
+    width: 80%; /* Adjust based on your layout needs */
+    background-color: #fff; /* Light background for the chart */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Additional styling for the loading text */
+.loading-text {
+    text-align: center;
+    font-size: 20px;
+    color: #666;
+}
+
+/* Styles for the chart load button */
+.chart-load-button button {
+    padding: 10px 20px;
+    background-color: #007BFF; /* Primary blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%; /* Full width to match the container */
+}
+
+.chart-load-button button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift */
+}
+
+.chart-load-button button:active {
+    background-color: #004494; /* Even darker blue when active */
+    transform: translateY(1px); /* Subtle press effect */
+}
+
+.chart-load-button button:disabled {
+    background-color: #cccccc; /* Grayed out when disabled */
+    cursor: not-allowed; /* Change cursor to indicate disabled state */
+}

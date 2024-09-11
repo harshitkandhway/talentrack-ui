@@ -1,0 +1,29 @@
+.header {
+    background-color: #1f79d2; /*Dark background for better contrast */
+    color: white;
+    padding: 0; /* Remove padding around the header */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+}
+
+.header a {
+    background-color: #1f79d2;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px 15px; /* Increase padding for a larger tab */
+    transition: background-color 0.3s, color 0.3s;
+    flex-grow: 1; /* Allow each tab to grow and fill the available space */
+    text-align: center; /* Center the text within each tab */
+    /* border-bottom: 1px solid transparent; Add a border to the bottom for active/hover effect */
+    height:100%;
+}
+
+.header a:hover, .header a.active {
+    background-color: #065cb3; /* Lighter gray on hover/active */
+    /* border-bottom-color: #f0f0f0; White border on active/hover */
+}
+
+

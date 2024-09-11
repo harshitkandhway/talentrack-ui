@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px 15px;
+  background-color: #e0e0e0;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.header a:hover {
+  background-color: #d0d0d0;
+  border-color: #c0c0c0;
+}
+.header a.active {
+  background-color: #b0b0b0;
+  border-color: #a0a0a0;
+}
+.Services {
+  margin: 20px auto; /* Adds vertical margin for spacing between components */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px; /* Rounded corners for the containers */
+    width: 100%; /* Control the width of the service containers */
+    max-width: 800px; /* Maximum width for larger screens */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.Services-bg {
+  text-align: center;
+    /* background-image: url('../images/bg-web.jpeg'); */
+    background-color: #282c34;
+    background-size: cover; /* Ensure the background covers the entire container */
+    background-position: center; /* Center the background image */
+    color: #171616;
+    padding: 50px 0; 
+}
+
+/* Enhancing the header within the services */
+.Services h1 {
+  color: #333; /* Darker text for better readability */
+  margin-bottom: 15px; /* Space below the header */
+}
+.Home-container {
+  display: flex; /* Enable Flexbox */
+  align-items: center; /* Align items vertically in the center */
+  justify-content: flex-start; /* Align items to the start of the container */
+  gap: 20px; /* Optional: Adds space between the logo and the paragraph */
+}
+.Description {
+  flex-grow: 1; /* Allows the paragraph to take up the remaining space */
+  text-align: left; /* Ensures text is aligned to the left */
+}

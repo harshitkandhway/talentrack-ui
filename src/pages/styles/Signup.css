@@ -1,0 +1,66 @@
+.signup {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  /* background-color: #282c34; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* Centers the content horizontally */
+}
+
+.signup label {
+  display: block;
+  margin-bottom: 10px; /* Increased for better visual separation */
+  font-weight: bold;
+  color: #333; /* Darker color for better readability */
+}
+
+.signup input {
+  width: calc(100% - 16px); /* Adjust width to account for padding */
+  padding: 10px; /* Increased padding for better touch interaction */
+  margin-bottom: 15px; /* Increased margin for better separation */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1); /* Subtle inset shadow for depth */
+}
+
+.signup input:focus {
+  border-color: #0056b3; /* Highlight focus with primary color */
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 2px rgba(0, 86, 179, 0.2); /* Add custom focus style */
+}
+
+.signup button {
+  width: 100%;
+  padding: 12px; /* Slightly increased padding */
+  background-color: #007BFF; /* Brighter blue for a more vibrant button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.signup button:hover {
+  background-color: #0056b3;
+}
+
+.signup p {
+  color: red;
+  font-size: 0.9em;
+  text-align: center; /* Center align the text for better presentation */
+}
+
+.signup-bg{
+    text-align: left;
+    /* background-image: url('../images/bg-web.jpeg'); */
+    background-color: #282c34;
+    background-size: cover; /* Ensure the background covers the entire container */
+    background-position: center; /* Center the background image */
+    color: #171616;
+    padding: 50px 0; 
+}

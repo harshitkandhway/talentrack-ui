@@ -1,0 +1,70 @@
+.login-container {
+    max-width: 600px; /* Matched width from the signup page */
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Light background for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display: flex;
+    flex-direction: column;
+    align-items: left; /* Align items to the left */
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 10px; /* Increased for better visual separation */
+    font-weight: bold;
+    color: #333; /* Darker color for better readability */
+}
+
+.input-group input {
+    width: calc(100% - 16px); /* Adjust width to account for padding */
+    padding: 10px; /* Increased padding for better touch interaction */
+    margin-bottom: 15px; /* Increased margin for better separation */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1); /* Subtle inset shadow for depth */
+}
+
+.input-group input:focus {
+    border-color: #0056b3; /* Highlight focus with primary color */
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 2px rgba(0, 86, 179, 0.2); /* Add custom focus style */
+}
+
+button {
+    width: 100%;
+    padding: 12px; /* Slightly increased padding */
+    background-color: #007BFF; /* Brighter blue for a more vibrant button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    color: #007BFF;
+    text-decoration: none;
+    text-align: center; /* Center align the text for better presentation */
+}
+
+.login-bg {
+    text-align: left;
+    background-color: #282c34; /* Dark background for the container */
+    background-size: cover; /* Ensure the background covers the entire container */
+    background-position: center; /* Center the background image */
+    color: #171616;
+    padding: 50px 0;
+}
