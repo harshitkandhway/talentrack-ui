@@ -13,6 +13,7 @@ function Login() {
     };
 
     return (
+        <div className="login-bg">
         <div className="login-container">
             <h1>Login</h1>
             <form onSubmit={handleLogin}>
@@ -37,6 +38,7 @@ function Login() {
                 <button type="submit">Login</button>
             </form>
             <a href="/forgot-password">Forgot Password?</a>
+        </div>
         </div>
     );
 }

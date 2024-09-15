@@ -5,7 +5,7 @@
     padding: 20px;
     background-color: #f9f9f9; /* Light background to contrast with the text */
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .About-page h1 {
@@ -45,4 +45,15 @@
 
 .About-page .benefit {
     color: #007BFF; /* Blue color for benefits to highlight them */
+}
+
+.about-page-bg{
+    width: 100vw; /* Full viewport width */
+    height: 100%;
+    text-align: left;
+    background-color: #282c34; /* Dark background for the container */
+    background-size: cover; /* Ensure the background covers the entire container */
+    background-position: center; /* Center the background image */
+    color: #171616;
+    padding: 50px 0;
 }

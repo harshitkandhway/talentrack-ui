@@ -6,6 +6,10 @@ import Location from '../pages/Location';
 import About from '../pages/About';
 import Login from '../pages/Login';
 import Signup from '../pages/Signup';
+import Dashboard from './Dashboard';
+import PostJob from './PostJob';
+import SearchJob from './SearchJob';
+
 import "./styles/GlobalNavigationBar.css";
 
 function GlobalNavigationBar() {
@@ -14,7 +18,8 @@ function GlobalNavigationBar() {
             <div>
                 <header className="header">
                     <Link to="/">Home</Link>
-                    <Link to="/services" className="dropbtn">Services</Link>
+                    <Link to="/services">Services</Link>
+                    <Link to="/dashboard">Dashboard</Link>
                     <Link to="/location">Location</Link>
                     <Link to="/about">About</Link>
                     <Link to="/login">Login</Link>
@@ -22,6 +27,9 @@ function GlobalNavigationBar() {
                 </header>
                 <Routes>
                     <Route path="/" element={<Home />} />
+                    <Route path="/dashboard" element={<Dashboard />} />
+                    <Route path="/post-job" element={<PostJob />} />
+                    <Route path="/search-job" element={<SearchJob />} />
                     <Route path="/services" element={<Services />} />
                     <Route path="/location" element={<Location />} />
                     <Route path="/about" element={<About />} />

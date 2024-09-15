@@ -3,6 +3,7 @@ import "./styles/About.css";
 
 function About() {
     return (
+        <div className="about-page-bg">
         <div className="About-page">
             <h1>About Page</h1>
             <div>
@@ -48,6 +49,7 @@ function About() {
                     </li>
                 </ul>
             </div>
+        </div>
         </div>
     );
 }

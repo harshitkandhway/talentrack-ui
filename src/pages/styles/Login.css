@@ -61,9 +61,25 @@ a {
 }
 
 .login-bg {
+    width: 100vw; /* Full viewport width */
+    height: 100vh;
     text-align: left;
     background-color: #282c34; /* Dark background for the container */
     background-size: cover; /* Ensure the background covers the entire container */
+    background-position: center; /* Center the background image */
+    color: #171616;
+    padding: 50px 0;
+}
+
+.full-page-wrapper {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #282c34; /* Dark background for the entire page */
+    background-size: cover; /* Ensure the background covers the entire page */
     background-position: center; /* Center the background image */
     color: #171616;
     padding: 50px 0;
