@@ -64,31 +64,6 @@
   background-color: #b0b0b0;
   border-color: #a0a0a0;
 }
-.Services {
-  margin: 20px auto; /* Adds vertical margin for spacing between components */
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
-    border-radius: 10px; /* Rounded corners for the containers */
-    width: 100%; /* Control the width of the service containers */
-    max-width: 800px; /* Maximum width for larger screens */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-}
-
-.Services-bg {
-  text-align: center;
-    /* background-image: url('../images/bg-web.jpeg'); */
-    background-color: #282c34;
-    background-size: cover; /* Ensure the background covers the entire container */
-    background-position: center; /* Center the background image */
-    color: #171616;
-    padding: 50px 0; 
-}
-
-/* Enhancing the header within the services */
-.Services h1 {
-  color: #333; /* Darker text for better readability */
-  margin-bottom: 15px; /* Space below the header */
-}
 .Home-container {
   display: flex; /* Enable Flexbox */
   align-items: center; /* Align items vertically in the center */
